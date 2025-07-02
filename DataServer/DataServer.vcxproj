@@ -1,0 +1,403 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="EX201PHI|Win32">
+      <Configuration>EX201PHI</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="EX301TAI|Win32">
+      <Configuration>EX301TAI</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="EX201KOR|Win32">
+      <Configuration>EX201KOR</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="EX101KOR|Win32">
+      <Configuration>EX101KOR</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="EX301KOR|Win32">
+      <Configuration>EX301KOR</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="EX401KOR|Win32">
+      <Configuration>EX401KOR</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="EX603ENG|Win32">
+      <Configuration>EX603ENG</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="EX803ENG|Win32">
+      <Configuration>EX803ENG</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DCCBB883-D3B5-486A-8658-4E469C575023}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>DataServer</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='EX603ENG|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='EX401KOR|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='EX301KOR|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='EX301TAI|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='EX201KOR|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='EX201PHI|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='EX101KOR|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='EX803ENG|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='EX603ENG|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='EX401KOR|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='EX301KOR|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='EX301TAI|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='EX201KOR|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='EX201PHI|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='EX101KOR|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='EX803ENG|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='EX603ENG|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\..\..\Program\MuServerS6E\DataServer\</OutDir>
+    <IntDir>Release\DataServer_S6E\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='EX401KOR|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\..\..\Program\MuServerS4K\DataServer\</OutDir>
+    <IntDir>Release\DataServer_S4K\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='EX301KOR|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\..\..\Program\MuServerS3K\DataServer\</OutDir>
+    <IntDir>Release\DataServer_S3K\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='EX301TAI|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\..\..\Program\MuServerS3T\DataServer\</OutDir>
+    <IntDir>Release\DataServer_S3T\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='EX201KOR|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\..\..\Program\MuServerS2K\DataServer\</OutDir>
+    <IntDir>Release\DataServer_S2K\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='EX201PHI|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\..\..\Program\MuServerS2P\DataServer\</OutDir>
+    <IntDir>Release\DataServer_S2P\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='EX101KOR|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\..\..\Program\MuServerS0K\DataServer\</OutDir>
+    <IntDir>Release\DataServer_S0K\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='EX803ENG|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\..\..\Program\MuServerS8E\DataServer\</OutDir>
+    <IntDir>Release\DataServer_S8E\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='EX603ENG|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;DATASERVER_UPDATE=603;DATASERVER_LANGUAGE=1;DATASERVER_SHOP=3;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='EX401KOR|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;DATASERVER_UPDATE=401;DATASERVER_LANGUAGE=0;DATASERVER_SHOP=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='EX301KOR|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;DATASERVER_UPDATE=301;DATASERVER_LANGUAGE=0;DATASERVER_SHOP=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='EX301TAI|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;DATASERVER_UPDATE=301;DATASERVER_LANGUAGE=4;DATASERVER_SHOP=2;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='EX201KOR|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;DATASERVER_UPDATE=201;DATASERVER_LANGUAGE=0;DATASERVER_SHOP=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='EX201PHI|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;DATASERVER_UPDATE=201;DATASERVER_LANGUAGE=5;DATASERVER_SHOP=2;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='EX101KOR|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;DATASERVER_UPDATE=101;DATASERVER_LANGUAGE=0;DATASERVER_SHOP=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='EX803ENG|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;DATASERVER_UPDATE=803;DATASERVER_LANGUAGE=1;DATASERVER_SHOP=3;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Util\Sha256\Sha256.h" />
+    <ClInclude Include="AllowableIpList.h" />
+    <ClInclude Include="ArcaBattle.h" />
+    <ClInclude Include="BadSyntax.h" />
+    <ClInclude Include="CashShop.h" />
+    <ClInclude Include="CastleDBSet.h" />
+    <ClInclude Include="ChaosCastleFinal.h" />
+    <ClInclude Include="CharacterManager.h" />
+    <ClInclude Include="CommandManager.h" />
+    <ClInclude Include="CriticalSection.h" />
+    <ClInclude Include="CustomPick.h" />
+    <ClInclude Include="DataServer.h" />
+    <ClInclude Include="DataServerProtocol.h" />
+    <ClInclude Include="EventInventory.h" />
+    <ClInclude Include="Friend.h" />
+    <ClInclude Include="GensSystem.h" />
+    <ClInclude Include="GoldenArcher.h" />
+    <ClInclude Include="Guild.h" />
+    <ClInclude Include="GuildManager.h" />
+    <ClInclude Include="GuildMatching.h" />
+    <ClInclude Include="Helper.h" />
+    <ClInclude Include="Log.h" />
+    <ClInclude Include="LuckyCoin.h" />
+    <ClInclude Include="LuckyItem.h" />
+    <ClInclude Include="MasterSkillTree.h" />
+    <ClInclude Include="MemScript.h" />
+    <ClInclude Include="MiniDump.h" />
+    <ClInclude Include="MuCashShop.h" />
+    <ClInclude Include="MuRummy.h" />
+    <ClInclude Include="MuunSystem.h" />
+    <ClInclude Include="NpcTalk.h" />
+    <ClInclude Include="PartyMatching.h" />
+    <ClInclude Include="PcPoint.h" />
+    <ClInclude Include="PentagramSystem.h" />
+    <ClInclude Include="PersonalShop.h" />
+    <ClInclude Include="QueryManager.h" />
+    <ClInclude Include="Quest.h" />
+    <ClInclude Include="QuestWorld.h" />
+    <ClInclude Include="Queue.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="ServerDisplayer.h" />
+    <ClInclude Include="ServerManager.h" />
+    <ClInclude Include="SocketManager.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="ThemidaSDK.h" />
+    <ClInclude Include="Util.h" />
+    <ClInclude Include="Warehouse.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\Util\Sha256\Sha256.cpp" />
+    <ClCompile Include="AllowableIpList.cpp" />
+    <ClCompile Include="ArcaBattle.cpp" />
+    <ClCompile Include="BadSyntax.cpp" />
+    <ClCompile Include="CashShop.cpp" />
+    <ClCompile Include="CastleDBSet.cpp" />
+    <ClCompile Include="ChaosCastleFinal.cpp" />
+    <ClCompile Include="CharacterManager.cpp" />
+    <ClCompile Include="CommandManager.cpp" />
+    <ClCompile Include="CriticalSection.cpp" />
+    <ClCompile Include="CustomPick.cpp" />
+    <ClCompile Include="DataServer.cpp" />
+    <ClCompile Include="DataServerProtocol.cpp" />
+    <ClCompile Include="EventInventory.cpp" />
+    <ClCompile Include="Friend.cpp" />
+    <ClCompile Include="GensSystem.cpp" />
+    <ClCompile Include="GoldenArcher.cpp" />
+    <ClCompile Include="Guild.cpp" />
+    <ClCompile Include="GuildManager.cpp" />
+    <ClCompile Include="GuildMatching.cpp" />
+    <ClCompile Include="Helper.cpp" />
+    <ClCompile Include="Log.cpp" />
+    <ClCompile Include="LuckyCoin.cpp" />
+    <ClCompile Include="LuckyItem.cpp" />
+    <ClCompile Include="MasterSkillTree.cpp" />
+    <ClCompile Include="MemScript.cpp" />
+    <ClCompile Include="MiniDump.cpp" />
+    <ClCompile Include="MuCashShop.cpp" />
+    <ClCompile Include="MuRummy.cpp" />
+    <ClCompile Include="MuunSystem.cpp" />
+    <ClCompile Include="NpcTalk.cpp" />
+    <ClCompile Include="PartyMatching.cpp" />
+    <ClCompile Include="PcPoint.cpp" />
+    <ClCompile Include="PentagramSystem.cpp" />
+    <ClCompile Include="PersonalShop.cpp" />
+    <ClCompile Include="QueryManager.cpp" />
+    <ClCompile Include="Quest.cpp" />
+    <ClCompile Include="QuestWorld.cpp" />
+    <ClCompile Include="Queue.cpp" />
+    <ClCompile Include="ServerDisplayer.cpp" />
+    <ClCompile Include="ServerManager.cpp" />
+    <ClCompile Include="SocketManager.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='EX603ENG|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='EX401KOR|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='EX301KOR|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='EX301TAI|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='EX201KOR|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='EX201PHI|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='EX101KOR|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='EX803ENG|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Util.cpp" />
+    <ClCompile Include="Warehouse.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DataServer.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Media\SSeMU.ico" />
+    <None Include="..\..\Media\TopBar.bmp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
